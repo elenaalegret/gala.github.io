@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Guided Attention with Language Alignment for Open Vocabulary Gaussian Splatting.">
-  <meta name="keywords" content="3D Scene Understanding, 3DGS, Open-Vocabulary">
+        content="GALA (3DV 2026): open-vocabulary 3D scene understanding with 3D Gaussian Splatting. Self-supervised instance features aligned with language via cross-attention, enabling 2D and 3D open-vocabulary queries with a low memory footprint.">
+  <meta name="keywords" content="3D Scene Understanding, 3D Gaussian Splatting, 3DGS, Open-Vocabulary Segmentation, 3D Computer Vision, 3DV 2026">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GALA: Guided Attention with Language Alignment for Open Vocabulary Gaussian Splatting</title>
 
@@ -168,8 +168,8 @@
         <div class="content has-text-justified">
           <p>
             We introduce GALA, a novel framework for open-vocabulary 3D scene understanding with 3D Gaussian Splatting (3DGS). 
-            GALA distills a scenespecific 3D instance feature field via self-supervised contrastive learning. To extend to generalized 
-            language feature fields, we introduce the core contribution of GALA, a crossattention module with two learnable codebooks 
+            GALA distills a scene-specific 3D instance feature field via self-supervised contrastive learning. To extend to generalized
+            language feature fields, we introduce the core contribution of GALA, a cross-attention module with two learnable codebooks 
             that encode view-independent semantic embeddings. This design not only ensures intra-instance feature similarity but also
             supports seamless 2D and 3D open-vocabulary queries. It reduces memory consumption by avoiding per-Gaussian high-dimensional 
             feature learning. Extensive experiments on real-world datasets demonstrate GALA’s remarkable open-vocabulary performance on both 2D and 3D.
